@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/swiperdetail/swiperdetail",
+    "pages/teachmaterial/teachmaterial",
+    "pages/marketsupport/marketsupport",
+    "pages/work/home",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4ba7f2",
+    "navigationBarTitleText": "FriendshipsWork",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "imags/index.png",
+        "iconPath": "imags/index.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "imags/beike.png",
+        "iconPath": "imags/beike.png",
+        "pagePath": "pages/teachmaterial/teachmaterial",
+        "text": "品牌学科"
+      },
+      {
+        "selectedIconPath": "imags/beike.png",
+        "iconPath": "imags/beike.png",
+        "pagePath": "pages/marketsupport/marketsupport",
+        "text": "营销支持"
+      },
+      {
+        "selectedIconPath": "imags/mine.png",
+        "iconPath": "imags/mine.png",
+        "pagePath": "pages/logs/logs",
+        "text": "合作咨询"
+      }
+    ]
+  }
+}

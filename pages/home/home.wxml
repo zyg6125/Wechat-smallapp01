@@ -1,0 +1,10 @@
+<!--pages/home/home.wxml-->
+<swiper  class="swiper_style" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}"  circular="{{circular}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key=""  wx:for-index="index">
+    <swiper-item >
+      <image bindtap="click" data-picurl="{{item.name}}" src="{{item.url}}" class="slide-image" width="100%" height="250"/>
+    </swiper-item>
+  </block>
+</swiper>
+<button class='button-style' bindtap="skiptoduo">确定</button>

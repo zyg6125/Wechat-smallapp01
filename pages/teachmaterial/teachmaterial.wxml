@@ -1,0 +1,8 @@
+<!--pages/teachmaterial/teachmaterial.wxml-->
+<view class='consn' >
+  <image  src='{{imageshuxue}}' class='list-image'></image>
+  <image src='{{imageyuwen}}' class='list-image'></image>
+  <image src='{{imageyingyu}}' class='list-image'></image>
+  <image src='{{imagewuli}}' class='list-image'></image>
+  <image src='{{imagehuaxue}}' class='list-image'></image>
+</view>

@@ -1,0 +1,4 @@
+/* pages/swiperdetail/swiperdetail.wxss */
+video{
+width: 100%;
+}
