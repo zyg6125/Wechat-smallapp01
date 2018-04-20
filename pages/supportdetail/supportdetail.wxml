@@ -1,0 +1,2 @@
+<!--pages/supportdetail/supportdetail.wxml-->
+<image class='image-head' src='{{image0}}' ></image>

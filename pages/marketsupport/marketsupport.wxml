@@ -1,4 +1,4 @@
 <!--pages/marketsupport/marketsupport.wxml-->
 <view class='consn' >
   <image src='{{image0}}' class='list-image'></image>
-</view>
+<view>

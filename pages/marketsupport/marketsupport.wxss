@@ -1,6 +1,6 @@
 /* pages/marketsupport/marketsupport.wxss */
 .list-image {
-  width: 92%;
-  height: 290rpx;
-  margin: 0rpx 4% 0 4%;
+width: 100%;
+height: 860px;
 }
+  /* margin: 0rpx 4% 0 4%; */
