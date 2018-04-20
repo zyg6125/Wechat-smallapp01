@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/home/home",
+    "pages/supportdetail/supportdetail",
     "pages/swiperdetail/swiperdetail",
     "pages/teachmaterial/teachmaterial",
     "pages/marketsupport/marketsupport",

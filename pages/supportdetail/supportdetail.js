@@ -1,29 +1,18 @@
-// pages/marketsupport/marketsupport.js
+// pages/supportdetail/supportdetail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    image0: "../../imags/s0.png",
-    image1: "../../imags/s1.png",
-    image2: "../../imags/s2.png",
-    image3: "../../imags/s3.png",
-    image4: "../../imags/s4.png",
-    image5: "../../imags/support7.png",
-    videoUrl: "../../videos/w.mp4",
+    image0: "../../imags/support8.jpg",
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.setNavigationBarTitle({
-      title: '营销支持',
-      success: function (res) { },
-      fail: function (res) { },
-      complete: function (res) { },
-    })
+  
   },
 
   /**
