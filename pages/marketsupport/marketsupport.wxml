@@ -1,4 +1,5 @@
 <!--pages/marketsupport/marketsupport.wxml-->
 <view class='consn' >
   <image src='{{image0}}' class='list-image'></image>
+  修改这个页面
 </view>
