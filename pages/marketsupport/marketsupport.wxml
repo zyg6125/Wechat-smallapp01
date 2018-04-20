@@ -1,9 +1,4 @@
 <!--pages/marketsupport/marketsupport.wxml-->
+<view class='consn' >
+  <image src='{{image0}}' class='list-image'></image>
 <view>
-
-  <image src=' https://aixuexi-1256467812.cos.ap-beijing.myqcloud.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180413111415.png ' class='list-image'></image>
-  <!-- <image src='{{image1}}' class='list-image'></image>
-  <image src='{{image2}}' class='list-image'></image>
-  <image src='{{image3}}' class='list-image'></image>
-  <image src='{{image4}}' class='list-image'></image> -->
-</view>
