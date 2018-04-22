@@ -1,6 +1,72 @@
-<!--pages/marketsupport/marketsupport.wxml-->
-<view>
-  <image src=' https://aixuexi-1256467812.cos.ap-beijing.myqcloud.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180413111415.png ' class='list-image'></image>
+<!--  顶部banner图  -->
+<view class='banner'>
+  <image class='banner-image' src='{{ banner.image }}'></image>
+</view>
 
-  傲世狂妃 
+<!--  banner图下方title  -->
+<view class='banner-title-wrap'>
+  <view class='banner-title'>
+    <text>{{ banner.title }}</text>
+  </view>
+  <view class='banner-subTitle'>
+    <text>{{ banner.subTitle }}</text>
+  </view>
+</view>
+
+<!--  四个模块简介  -->
+<view class='modules-brief-wrap'>
+  <view class='modules-brief' wx:for="{{ modulesBrief }}" wx:key="*this">
+    <view class='modules-brief-title'>{{ item.title }}</view>
+    <view class='modules-brief-content'>
+      <view class='list' wx:for="{{ item.list }}" wx:for-item="list" wx:key="*this">
+        <text>{{ list }}</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!--  四个模块-每个模块的具体内容  -->
+<view>
+  <!--  你要的的布局方式-style02  -->
+  <view class='modules-content modules-content-style02' wx:for="{{ modulesContent }}" wx:for-item="moduleItem" wx:key="*this">
+    <view class='modules-content-title'>{{ moduleItem.title }}</view>
+    <view class='modules-content-main' wx:for="{{ moduleItem.main }}" wx:for-item="MIMainItem" wx:key="*this">
+      <view class='list-title'>
+        <image class='list-title-image' src='{{ modulesContentListTitleIcon }}'></image>
+        <text>{{ MIMainItem.listTitle }}</text>
+      </view>
+      <view class='list-main'>
+        <view class='list-content'>
+          <text decode="true">{{ MIMainItem.text }}</text>
+        </view>
+        <view class='list-image-wrap'>
+          <image class='list-image-style02' src='{{ MIMainItem.listImageUrl }}'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='video-wrap' wx:for="{{ videoList }}" wx:for-item="vedioItem" wx:key="*this">
+    <text>{{ vedioItem.text }}</text>
+    <video id="myVideo" class="video" src="{{ vedioItem.url }}" controls></video>
+  </view>
+
+
+  <!--  我认为合理的布局方式-style01
+    作为最后的彩蛋吧,把style='display: none;'去掉就可以查看效果
+  -->
+  <view class='modules-content' style='display: none;'>
+    <view class='modules-content-title'>市场活动</view>
+    <view class='modules-content-main'>
+      <view class='list-title'>
+        <image class='list-title-image' src='{{ modulesContentListTitleIcon }}'></image>
+        <text>一元班市场营销活动分享</text>
+      </view>
+      <image class='list-image' src='{{ style01listImage01 }}'></image>
+      <view class='list-content'>
+        <text>精心设计的学科介绍微视频，学科的特色一览无遗的呈现在家长面前，您可以在微信朋友圈传播分享，也可以在前台、户外进行展示</text>
+      </view>
+    </view>
+  </view>
+
 </view>
